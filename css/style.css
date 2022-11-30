@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(120deg, #2c3682, #d6ce7d);
+    height: 100vh;
+}
+
+.letter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 1000px;
+    height: 600px;
+    border: dashed 8px #2b3582;
+}
+
+.citation{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    text-shadow: darkred;
+}
+
+.refcit{
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+    margin: 50px;
+}
+
+button{
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    background: #2b3582;
+    color: #d1b078;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px black;
+}
